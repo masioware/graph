@@ -8,8 +8,10 @@ from gremlin_query.vertex import Vertex
 
 
 if __name__ == "__main__":
+    """_summary_
+    """
 
-    # Vetex
+    # Vertex
     marcio = Vertex(label="Marcio", properties={"Name": "Marcio"})
     lucas = Vertex(label="Lucas", properties={"Name": "Lucas"})
     rafael = Vertex(label="Rafael", properties={"Name": "Rafael"})
